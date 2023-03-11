@@ -9,9 +9,18 @@
     margin-inline: auto;
     display: flex;
 }
+
+.content-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
 .image-container{
     background-color: beige;
-    width: 50%;
+    width: 60%;
     height: 60vh;
     margin-inline: auto;
 }
@@ -19,8 +28,14 @@
     height: 40vh;
     width: 80%;
     background-size: cover;
-    
+    display: flex;
+    margin-inline: auto;
+    /* justify-content: center; */
+}
 
+.content-container p {
+    text-align: center;
+    margin-inline: 2rem;
 }
 
 .btn-cont {
@@ -31,4 +46,7 @@
 button {
     height: 2rem;
     margin-block: .4rem;
+    background-color: white;
+    outline: transparent;
+    border: 0;
 }
