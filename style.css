@@ -50,3 +50,32 @@ button {
     outline: transparent;
     border: 0;
 }
+
+.em-container {
+    background-color: black;
+    height: 50vh;
+    width: 80%;
+    margin-inline: auto;
+    padding-inline: 5%;
+    color: white;
+    /* padding-block: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.em-container  h2 {
+    border: 1px solid red;
+}
+.em-container  p {
+    border: 1px solid red;
+}
+.em-container  .btn-cont {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+}
+.em-container button {
+    width: 6rem;
+}
