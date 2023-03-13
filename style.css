@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 .container-wrapper{
     width: 80%;
     background-color: red;
@@ -150,4 +152,26 @@ button {
     .mediaq-e {
         background-color: green;
     } 
+}
+
+header {
+    background-color: red;
+    padding-inline: 7%;
+}
+.site-title {
+    text-align: center;
+}
+nav {
+    background-color: yellow;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    list-style-type: none;
+    margin-inline: 1em;
+}
+nav a {
+    text-decoration: none;
 }
