@@ -104,6 +104,7 @@ button {
 .flex-container .top-content{
     border: 3px solid green;
     display: flex;
+    margin-block: 1em;
 }      
 .flex-container .bottom-content{
     border: 3px solid purple;
@@ -114,9 +115,31 @@ button {
     background-color: grey;
 }   
 .bottom-content-p:first-child{
-    /* width: 60%; */
+    width: 65%;
 }
 .bottom-content-p:last-child{
-    /* width: 40%; */
+    width: 35%;
     background-color: grey;
 }   
+
+
+/* @media screen  */
+.mediaq {
+    width: 80%;
+    height: 60vh;
+    background-color: red;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.mediaq-e {
+    height: 80%;
+    width: 10rem;
+    background-color: yellow;
+    border: 1px solid blue;
+}
+.mediaq-e:first-child{
+    background-color: green;
+    flex-grow: 1;
+}
