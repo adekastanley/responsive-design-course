@@ -130,8 +130,7 @@ button {
     background-color: red;
     margin-inline: auto;
     display: flex;
-    flex-direction: column;
-
+    
 }
 .mediaq-e {
     height: 80%;
@@ -141,5 +140,14 @@ button {
 }
 .mediaq-e:first-child{
     background-color: green;
-    flex-grow: 1;
+    
+}
+
+@media screen and (max-width: 700px){
+    .mediaq {
+    flex-direction: column;
+    }
+    .mediaq-e {
+        background-color: green;
+    } 
 }
